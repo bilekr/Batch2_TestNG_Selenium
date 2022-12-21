@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<!-- How to run specific/each/all test/class/package(.*) ? -->
+<suite name="Krafttech Automation" verbose="1">
+    <test name="Krafttech Smoke Test">
+        <classes>
+            <class name="com.krafttechnologie.tests.day12_Actions_FileUpload_JSExecutor.Actions_1">
+                <methods>
+                    <include name="dragAndDrop" ></include>
+                    <include name="hover1" ></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
